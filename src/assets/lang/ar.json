@@ -1,0 +1,31 @@
+{
+  "addTaskButton": "إضافة مهمة",
+  "form": {
+    "title": "إضافة مهمة جديدة",
+    "addTask": "إضافة مهمة",
+    "addTaskDescription": "إضافة مهمة جديدة من هنا.",
+    "submit": "إضافة",
+    "inputs": {
+      "name": {
+        "label": "اسم المهمة",
+        "placeholder": "اسم المهمة"
+      },
+
+      "time": {
+        "label": "الوقت",
+        "placeholder": "الوقت"
+      }
+    }
+  },
+  "searchInputPlaceholder": "ابحث عن مهمة",
+  "tasks": {
+    "title": "المهام",
+    "noTasks": "لا توجد مهام",
+    "task": {
+      "task": "مهمة",
+      "name": "اسم المهمة",
+      "time": "الوقت",
+      "delete": "حذف"
+    }
+  }
+}

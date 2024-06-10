@@ -1,0 +1,31 @@
+{
+  "addTaskButton": "Add Task",
+  "form": {
+    "title": "New Task",
+    "addTask": "Add Task",
+    "addTaskDescription": "Add new task from here.",
+    "submit": "Submit",
+    "inputs": {
+      "name": {
+        "label": "Task name",
+        "placeholder": "Enter task name"
+      },
+
+      "time": {
+        "label": "Task time",
+        "placeholder": "--:-- AM/PM"
+      }
+    }
+  },
+  "searchInputPlaceholder": "Search task",
+  "tasks": {
+    "title": "Tasks",
+    "noTasks": "No tasks found.",
+    "task": {
+      "task": "Task",
+      "name": "Task name",
+      "time": "Task time",
+      "delete": "Delete"
+    }
+  }
+}
