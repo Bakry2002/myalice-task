@@ -39,5 +39,5 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/bakry2002/task-manager.git
    cd task-manager
