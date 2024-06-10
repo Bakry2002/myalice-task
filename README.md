@@ -1,5 +1,3 @@
-
-ChatGPT
 Task Manager Application
 Welcome to the Task Manager application! This project is built with React, TypeScript, and Vite. The application allows users to manage tasks, including adding, deleting, completing tasks, and filtering tasks based on a search query. It also supports multi-language functionality.
 
