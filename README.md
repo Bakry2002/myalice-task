@@ -52,7 +52,8 @@ Before you begin, ensure you have the following installed on your machine:
    npm run dev
 
 4. **Project Structure**
-   task-manager/
+<?php
+task-manager/
 ├── public/                   # Static files
 ├── src/                      # Source files
 │   ├── assets/               # Assets such as images and language files
