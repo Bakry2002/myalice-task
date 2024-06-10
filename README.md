@@ -52,27 +52,25 @@ Before you begin, ensure you have the following installed on your machine:
    npm run dev
 
 4. **Project Structure**
-<?php
 task-manager/
-├── public/                   # Static files
-├── src/                      # Source files
-│   ├── assets/               # Assets such as images and language files
-│   ├── components/           # Reusable components
-│   ├── hooks/                # Custom hooks
-│   ├── lib/                  # Utility functions
-│   ├── App.tsx               # Main application component
-│   ├── main.tsx              # Entry point for the application
-│   ├── TaskManager.tsx       # Task Manager component
-│   ├── TaskForm.tsx          # Task Form component
-│   ├── TaskList.tsx          # Task List component
-│   ├── TaskListItem.tsx      # Task List Item component
-│   ├── SearchInput.tsx       # Search Input component
-│   └── index.css             # Global styles
-├── .gitignore                # Git ignore file
-├── index.html                # HTML template
-├── package.json              # Project metadata and scripts
-├── tsconfig.json             # TypeScript configuration
-├── vite.config.ts            # Vite configuration
-└── README.md                 # This file
-<php/>
+├── public/ # Static files
+├── src/ # Source files
+│ ├── assets/ # Assets such as images and language files
+│ ├── components/ # Reusable components
+│ ├── hooks/ # Custom hooks
+│ ├── lib/ # Utility functions
+│ ├── App.tsx # Main application component
+│ ├── main.tsx # Entry point for the application
+│ ├── TaskManager.tsx # Task Manager component
+│ ├── TaskForm.tsx # Task Form component
+│ ├── TaskList.tsx # Task List component
+│ ├── TaskListItem.tsx # Task List Item component
+│ ├── SearchInput.tsx # Search Input component
+│ └── index.css # Global styles
+├── .gitignore # Git ignore file
+├── index.html # HTML template
+├── package.json # Project metadata and scripts
+├── tsconfig.json # TypeScript configuration
+├── vite.config.ts # Vite configuration
+└── README.md # This file
 
