@@ -1,5 +1,5 @@
-html[dir="rtl"] .data-\[state\=checked\]\:translate-x-5[data-state="checked"] {
-  transform: translateX(-20px) !important;
+html[lang="AR"] .data-\[state\=checked\]\:translate-x-5[data-state="checked"] {
+  transform: translateX(20px) !important;
 }
 
 html[dir="ltr"] .data-\[state\=checked\]\:translate-x-5[data-state="checked"] {

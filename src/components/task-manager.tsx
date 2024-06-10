@@ -56,15 +56,25 @@ export const TaskManager = () => {
         />
         <TaskForm addTask={addTask} />
         <div className="flex items-center space-x-2">
-          <Label className={cn("", language === "AR" && "ml-2")}>EN</Label>
+          <Label
+            className={cn(
+              "",
+              language === "AR" ? "ml-2 order-1" : "ml-2 order-2"
+            )}
+          >
+            EN
+          </Label>
           <Switch
             id="language"
-            className={cn("", language === "AR" && "order-0")}
             onCheckedChange={() => {
-              setLanguage(language === "EN" ? "AR" : "EN");
+              setLanguage(language === "AR" ? "EN" : "AR");
             }}
           />
-          <Label>AR</Label>
+          <Label
+            className={cn(language === "EN" ? "-order-1 ml-2" : "-order-1")}
+          >
+            AR
+          </Label>
         </div>
       </div>
       <div className="h-[calc(100vh-150px)] pr-2 box-content w-full overflow-y-auto">
